@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Our Tribe - Journey to Enlightenment</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,8 +13,8 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#membership">Membership</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#get-in-touch">Get in Touch</a></li>
             </ul>
         </nav>
     </header>
@@ -22,44 +23,54 @@
         <div class="hero-content">
             <h1>Join Our Tribe for a Lifetime</h1>
             <p>Embark on a journey of cultural transformation and enlightenment.</p>
-            <a href="#membership" class="cta-button">Join Now</a>
+            <a href="#get-in-touch" class="cta-button">Get in Touch</a>
         </div>
     </section>
 
+    <!-- About Us Section -->
     <section id="about" class="about">
         <h2>About Us</h2>
-        <p>We are a community dedicated to cultural transformation and personal growth. Our tribe offers a unique journey towards enlightenment, where you can connect with like-minded individuals and explore the depths of your inner self.</p>
+        <p>Welcome to <strong>Project Nirvana 2027</strong>, a transformative initiative dedicated to guiding individuals on a journey toward <strong>Nirvana</strong>—a state of ultimate freedom, inner peace, and enlightenment. Our mission is rooted in three interconnected goals:</p>
+        <ul>
+            <li><strong>Nirvana Freedom</strong>: Helping individuals break free from societal conditioning and materialistic pursuits to discover their true selves.</li>
+            <li><strong>Building a Tribe</strong>: Creating a community of like-minded individuals who support and inspire each other on this journey.</li>
+            <li><strong>Cultural Shift</strong>: Redefining modern culture by reorienting it toward values rooted in nature, self-discovery, and universal truth.</li>
+        </ul>
+        <h3>What is Nirvana?</h3>
+        <p>Nirvana is not just a destination but a <strong>pivot</strong>—a guiding ideal that directs our collective journey. It represents the state of bliss consciousness, where the mind is silenced, and the soul connects with the universal truth. This state is achieved through <strong>self-discovery</strong>, <strong>breath observation</strong>, and a deep understanding of the self.</p>
+        <h3>Our Philosophy</h3>
+        <p>Modern society often prioritizes material success, competition, and external validation. However, these pursuits do not lead to true fulfillment. At Project Nirvana 2027, we believe in <strong>reeducation</strong>—a shift in mindset that aligns individuals with the <strong>absolute truth</strong>. This truth is not dictated by external sources but discovered through personal experience and introspection.</p>
+        <h3>The Role of the Tribe</h3>
+        <p>A tribe is more than just a community; it is a support system built around a shared ideal. In ancient times, tribes were guided by shamans who connected individuals with higher truths. Today, our tribe is guided by the <strong>pivot of Nirvana</strong>. Together, we move toward this ideal, supporting each other as we grow and evolve.</p>
+        <h3>The Path to Enlightenment</h3>
+        <p>The journey to Nirvana is deeply personal yet universally connected. It begins with <strong>observing the breath</strong>, a simple yet profound practice that anchors the mind and connects us to the present moment. Through this practice, we silence the mind, transcend the space-time dimension, and access the dimension of <strong>bliss consciousness</strong>.</p>
+        <h3>Why Join Us?</h3>
+        <p>Project Nirvana 2027 is not for everyone. It is for those who feel a deep calling to explore the depths of their being, to question societal norms, and to seek a higher truth. If you resonate with our mission and are ready to embark on this transformative journey, we invite you to <strong>join our tribe</strong>.</p>
+        <p>Together, we will redefine culture, rediscover truth, and walk the path toward Nirvana.</p>
     </section>
 
-    <section id="membership" class="membership">
-        <h2>Membership</h2>
-        <p>Become a lifetime member of our tribe and gain access to exclusive resources, events, and a supportive community.</p>
-        <form id="membership-form">
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <h2>Videos</h2>
+        <p>Explore our collection of enlightening videos.</p>
+        <div id="video-container" class="video-container">
+            <!-- Videos will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section id="get-in-touch" class="get-in-touch">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or want to join our tribe, feel free to reach out to us.</p>
+        <form id="contact-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             
-            <label for="message">Why do you want to join our tribe?</label>
+            <label for="message">Your Message:</label>
             <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions, feel free to reach out to us.</p>
-        <form id="contact-form">
-            <label for="contact-name">Name:</label>
-            <input type="text" id="contact-name" name="contact-name" required>
-            
-            <label for="contact-email">Email:</label>
-            <input type="email" id="contact-email" name="contact-email" required>
-            
-            <label for="contact-message">Message:</label>
-            <textarea id="contact-message" name="contact-message" required></textarea>
             
             <button type="submit">Send Message</button>
         </form>
@@ -72,8 +83,55 @@
     <script>
         // JavaScript to update the year dynamically
         document.getElementById('current-year').textContent = new Date().getFullYear();
-    </script>
 
-    <script src="scripts.js"></script>
+        // Array of YouTube video IDs (customize these links)
+        const youtubeVideoIds = [
+            'Q6CCLSyzEWI', // Example: Rick Astley - Never Gonna Give You Up
+            'SdVHAfnIyck', // Example: Luis Fonsi - Despacito
+            'GorS_nd5FLw', // Example: Wiz Khalifa - See You Again
+        ];
+
+        // Function to embed YouTube videos
+        function embedYouTubeVideos() {
+            const videoContainer = document.getElementById('video-container');
+
+            youtubeVideoIds.forEach(videoId => {
+                const iframe = document.createElement('iframe');
+                iframe.src = `https://www.youtube.com/embed/${videoId}`;
+                iframe.width = '560';
+                iframe.height = '315';
+                iframe.frameBorder = '0';
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframe.allowFullscreen = true;
+
+                videoContainer.appendChild(iframe);
+            });
+        }
+
+        // Call the function to embed videos
+        embedYouTubeVideos();
+
+        // Handle Get in Touch form submission
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Construct the WhatsApp message
+            const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+            // Replace with your WhatsApp number (in international format)
+            const whatsappNumber = '9036252425'; // Example: 1234567890 for a US number
+
+            // Create the WhatsApp link
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+            // Redirect the user to WhatsApp
+            window.location.href = whatsappLink;
+        });
+    </script>
 </body>
 </html>
