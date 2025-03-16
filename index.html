@@ -143,8 +143,8 @@
             // Create the WhatsApp link
             const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
-            // Redirect the user to WhatsApp
-            window.location.href = whatsappLink;
+            // Redirect the user to WhatsApp in new tab
+            window.open(whatsappLink, '_blank');
         });
     </script>
 </body>
