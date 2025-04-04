@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# GitHub Pages
+# Project Nirvana 2027
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_A place for the tribe, with courage we uite to redesign our present and the future_
 
 </header>
 
