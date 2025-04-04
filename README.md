@@ -9,7 +9,7 @@
 
 # Project Nirvana 2027
 
-_A place for the tribe, with courage we uite to redesign our present and the future_
+_A place for the tribe, with courage we unite to redesign our present and the future_
 
 </header>
 
