@@ -1,0 +1,30 @@
+{
+  "name": "the-tribe",
+  "version": "1.0.0",
+  "description": "<header>",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/tailwind.css -o ./assets/styles.css --watch",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./assets/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirvana2027/the-tribe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirvana2027/the-tribe/issues"
+  },
+  "homepage": "https://github.com/Nirvana2027/the-tribe#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16"
+  }
+}

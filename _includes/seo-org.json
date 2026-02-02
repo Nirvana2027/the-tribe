@@ -1,0 +1,9 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Project Nirvana 2027",
+  "url":"{{ '/' | absolute_url }}",
+  "logo":"{{ '/assets/logo.png' | absolute_url }}"
+}
+</script>

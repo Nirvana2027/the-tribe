@@ -1,0 +1,7 @@
+- { href: "/experiences/", label: "Experiences" }
+- { href: "/stay/huts/",  label: "Stay (Huts)" }
+- { href: "/calendar/",   label: "Calendar" }
+- { href: "/stories/",    label: "Stories" }
+- { href: "/purpose/",    label: "Purpose" }
+- { href: "/join/",       label: "Join" }
+- { href: "/book/",       label: "Book Now", cta: true }

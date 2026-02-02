@@ -1,0 +1,69 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16923049761"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16923049761');
+</script>
+<!-- Event snippet for wa message conversion page -->
+<script>
+    gtag('event', 'conversion', {'send_to': 'AW-16923049761/2-bSCNKT9KkaEKH-xIU_'});
+  </script> 
+
+
+
+<script>
+        // JavaScript to update the year dynamically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Array of YouTube video IDs (customize these links)
+        const youtubeVideoIds = [
+            'Q6CCLSyzEWI', // Example: Rick Astley - Never Gonna Give You Up
+            'SdVHAfnIyck', // Example: Luis Fonsi - Despacito
+            'GorS_nd5FLw', // Example: Wiz Khalifa - See You Again
+        ];
+
+        // Function to embed YouTube videos
+        function embedYouTubeVideos() {
+            const videoContainer = document.getElementById('video-container');
+
+            youtubeVideoIds.forEach(videoId => {
+                const iframe = document.createElement('iframe');
+                iframe.src = `https://www.youtube.com/embed/${videoId}`;
+                iframe.width = '560';
+                iframe.height = '315';
+                iframe.frameBorder = '0';
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframe.allowFullscreen = true;
+
+                videoContainer.appendChild(iframe);
+            });
+        }
+
+        // Call the function to embed videos
+        embedYouTubeVideos();
+
+        // Handle Get in Touch form submission
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Construct the WhatsApp message
+            const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+            // Replace with your WhatsApp number (in international format)
+            const whatsappNumber = '9036252425'; // Example: 1234567890 for a US number
+
+            // Create the WhatsApp link
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+            // Redirect the user to WhatsApp in new tab
+            window.open(whatsappLink, '_blank');
+        });
+    </script>
