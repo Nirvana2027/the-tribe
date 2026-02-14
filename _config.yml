@@ -1,6 +1,6 @@
 title: Project Nirvana 2027
 description: Wild camps with bonfire nights, natural farming with indigenous seeds, huts & café. Build the tribe.
-url: http://127.0.0.1:4000
+url: https://nirvana2027.com
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -10,3 +10,9 @@ defaults:
     values: { layout: page }
   - scope: { path: "index.md" }   # keep the home hero using default
     values: { layout: default }
+author: Project Nirvana 2027
+social:
+  name: Project Nirvana 2027
+  links:
+    - https://instagram.com/projectnirvana2027
+    - https://youtube.com/@projectnirvana2027

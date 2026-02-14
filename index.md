@@ -23,7 +23,7 @@ description: Wild camps with bonfire nights, natural farming with indigenous see
         Live Wild. Farm Natural. Build the Tribe.
       </h1>
       <p class="mx-auto mt-4 max-w-3xl text-lg md:text-xl text-stone-100/90">
-        Wild camps with bonfire nights, natural farming with indigenous seeds, huts & café. Build the tribe.
+        Learn to live with less dependence. Rebuild strength through land, tribe and skill.
       </p>
       <div class="mt-8 flex justify-center gap-3">
         <a href="/book/" class="inline-flex items-center rounded-full bg-brand px-5 py-2.5 font-medium text-white hover:bg-brand/90">Book Wild Camp</a>
@@ -32,6 +32,23 @@ description: Wild camps with bonfire nights, natural farming with indigenous see
     </div>
   </div>
 </section>
+
+<!-- Why We Exist -->
+<section class="bg-stone-50 py-16">
+  <div class="mx-auto max-w-4xl px-4 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-brand">
+      Why Project Nirvana 2027 Exists
+    </h2>
+    <p class="mt-6 text-lg text-stone-700 leading-relaxed">
+      The systems we depend on are fragile. Soil is dying. Communities are fragmented.
+      We are rebuilding strength through land, tribe, and self-reliance.
+    </p>
+    <p class="mt-4 text-lg text-stone-700 leading-relaxed">
+      This is not a retreat. It is a preparation.
+    </p>
+  </div>
+</section>
+
 
 <!-- Experiences -->
 <section id="experiences" class="mx-auto max-w-6xl px-4 py-12">
@@ -54,8 +71,10 @@ description: Wild camps with bonfire nights, natural farming with indigenous see
     </article>
     <article class="card">
       <h3 class="text-xl font-semibold">Café</h3>
-      <p class="mt-2 text-stone-700">Local, seasonal plates. Charges apply for food & beverages.</p>
+      <p class="mt-2 text-stone-700">Seasonal farm-to-fire meals available.</p>
       <a href="/stories/" class="mt-4 inline-flex items-center rounded-full border border-brand text-brand px-4 py-2 font-medium hover:bg-brand/10">Learn More</a>
     </article>
   </div>
 </section>
+
+
