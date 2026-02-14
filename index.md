@@ -34,7 +34,7 @@ description: Wild camps with bonfire nights, natural farming with indigenous see
 </section>
 
 <!-- Why We Exist -->
-<section class="bg-stone-50 py-16">
+<section class="bg-stone-50 py-12">
   <div class="mx-auto max-w-4xl px-4 text-center">
     <h2 class="text-3xl md:text-4xl font-bold text-brand">
       Why Project Nirvana 2027 Exists
